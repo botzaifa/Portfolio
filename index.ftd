@@ -168,7 +168,7 @@ spacing.fixed.px: 20
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: I'm
-secondTitle: YOUR_NAME,
+secondTitle: Huzaifa,
 
 -- lib.hero-ui-base-text-wrapper:
 firstTitle: frontend
@@ -223,7 +223,7 @@ link: https://instagram.com/botzaifa
 image: $assets.files.images.instagram.png
 
 -- social.social-button-wrapper:
-link: mailto:YOUR_EMAIL_ADDRESS
+link: mailto:huzaifa69@alquaida.com
 image: $assets.files.images.mail.png
 
 -- end: ftd.row
