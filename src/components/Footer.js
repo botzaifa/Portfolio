@@ -41,6 +41,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
+
             <li className="social-icons">
               <a
                 href="https://twitter.com/botzaifa"
@@ -51,6 +52,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li>
+            
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/botzaifa"
@@ -61,6 +63,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
+            
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/botzaifa"
@@ -71,7 +74,8 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          
+            </ul>
         </Col> */}
 
       </Row>
