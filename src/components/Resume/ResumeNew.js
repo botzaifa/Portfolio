@@ -19,20 +19,28 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row> */}
-          <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-            My <strong className="purple"> Resume </strong>
-          </h1>
+
+        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+          My <strong className="purple">Video Resume </strong>
+        </h1>
+
+        {/* Video Resume Section */}
+        <Row style={{ justifyContent: "center", marginBottom: "30px", zIndex: 1 }}>
+          <div className="video-container" style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", maxWidth: "80%", backgroundColor: "#000" }}>
+            <iframe
+              src="https://www.youtube.com/embed/1vI3Or1KVjI"
+              title="Video Resume"
+              frameBorder="0"
+              style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </Row>
+
+        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+          My <strong className="purple">PDF Resume </strong>
+        </h1>
           
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
