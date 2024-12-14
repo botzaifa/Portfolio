@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am a Final Year student of BTech in Artificial Intelligence and Data Science at Thakur College of Engineering and Technology.
             <br />
-            My CGPA in Last Semester were 9.52 out of 10.
+            My CGPA in Last Semester was 9.52 out of 10.
             <br />
             <br />
             Apart from Data Science and AI, My certain other hobbies are as follows:
