@@ -11,9 +11,9 @@ function AboutCard() {
             Hey, I am <span className="purple">Huzaifa Khan </span>
             from Mumbai, India.
             <br />
-            I am a student of BTech in Artificial Intelligence and Data Science at Thakur College of Engineering and Technology.
+            I am a Final Year student of BTech in Artificial Intelligence and Data Science at Thakur College of Engineering and Technology.
             <br />
-            My Grades Last Semester were 9.52 out of 10.
+            My CGPA in Last Semester were 9.52 out of 10.
             <br />
             <br />
             Apart from Data Science and AI, My certain other hobbies are as follows:
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Playing Chess and Sudoku
             </li>
             <li className="about-activity">
-              <ImPointRight /> Going to the Gym
+              <ImPointRight /> Web Development
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing Poems
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Jo Mann kar rah hai woh karo, baad ka, baad me dekha jaayega xD"{" "}
+            "Jo Mann kar rah hai woh karo, baad ka, baad me dekha jaayega"{" "}
           </p>
           <footer className="blockquote-footer">Huzaifa</footer>
         </blockquote>

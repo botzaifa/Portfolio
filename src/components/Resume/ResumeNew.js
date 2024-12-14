@@ -17,15 +17,16 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="resume-section" id="resume">
         <Particle />
 
-        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-          My <strong className="purple">Video Resume </strong>
-        </h1>
-
         {/* Video Resume Section */}
-        <Row style={{ justifyContent: "center", marginBottom: "30px", zIndex: 1 }}>
+
+        {/* <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+          My <strong className="purple">Video Resume </strong>
+        </h1> */}
+
+        {/* <Row style={{ justifyContent: "center", marginBottom: "30px", zIndex: 1 }}>
           <div className="video-container" style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", maxWidth: "80%", backgroundColor: "#000" }}>
             <iframe
               src="https://www.youtube.com/embed/1vI3Or1KVjI"
@@ -36,7 +37,7 @@ function ResumeNew() {
               allowFullScreen
             ></iframe>
           </div>
-        </Row>
+        </Row> */}
 
         <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
           My <strong className="purple">PDF Resume </strong>

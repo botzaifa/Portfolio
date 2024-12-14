@@ -12,7 +12,7 @@ import news from "../../Assets/Projects/news.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="projects">
       <Particle />
       <Container>
         

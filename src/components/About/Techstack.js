@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-
 import {
   DiPython,
   DiMongodb,
@@ -16,7 +15,6 @@ import {
 import {
   SiOpencv,
   SiPandas,
-  // SiSeaborn,
   SiTensorflow,
   SiKeras,
   SiPytorch,
@@ -24,89 +22,51 @@ import {
   SiNumpy,
   SiTableau,
   SiPowerbi,
-  // SiExcel,
   SiFlask,
   SiPlotly,
   SiStreamlit,
 } from "react-icons/si";
 
+const techStackData = [
+  { icon: <DiPython />, name: "Python" },
+  { icon: <DiMongodb />, name: "MongoDB" },
+  { icon: <DiMysql />, name: "MySQL" },
+  { icon: <DiGit />, name: "Git" },
+  { icon: <DiJavascript1 />, name: "JavaScript" },
+  { icon: <DiHtml5 />, name: "HTML" },
+  { icon: <DiCss3 />, name: "CSS" },
+  { icon: <DiReact />, name: "React" },
+  { icon: <SiOpencv />, name: "OpenCV" },
+  { icon: <SiPandas />, name: "Pandas" },
+  { icon: <SiTensorflow />, name: "TensorFlow" },
+  { icon: <SiPytorch />, name: "PyTorch" },
+  { icon: <SiKeras />, name: "Keras" },
+  { icon: <SiScikitlearn />, name: "Scikit-learn" },
+  { icon: <SiNumpy />, name: "NumPy" },
+  { icon: <SiTableau />, name: "Tableau" },
+  { icon: <SiPowerbi />, name: "Power BI" },
+  { icon: <SiStreamlit />, name: "Streamlit" },
+  { icon: <SiFlask />, name: "Flask" },
+  { icon: <SiPlotly />, name: "Plotly" },
+];
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <SiOpencv />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPandas />
-      </Col>
-
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSeaborn />
-      </Col> */}
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKeras />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNumpy />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col>
-
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiExcel />
-      </Col> */}
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiStreamlit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPlotly />
-      </Col>
-
+      {techStackData.map((tech, index) => (
+        <Col
+          key={index}
+          xs={4}
+          md={2}
+          className="tech-icons"
+          style={{ textAlign: "center", marginBottom: "20px" }}
+        >
+          <div>{tech.icon}</div>
+          <div style={{ marginTop: "10px", fontSize: "1rem", color: "white" }}>
+            {tech.name}
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }

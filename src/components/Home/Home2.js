@@ -4,14 +4,14 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -79,7 +79,7 @@ function Home2() {
                 </a>
               </li>
               
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/botzaifa"
                   target="_blank"
@@ -88,7 +88,7 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               
               <li className="social-icons">
                 <a
@@ -101,7 +101,7 @@ function Home2() {
                 </a>
               </li>
               
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/botzaifa"
                   target="_blank"
@@ -110,7 +110,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             
             </ul>
             
